@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         products.add(new Product("Игорь", "7457",R.drawable.card1));
         products.add(new Product("Пантера", "7sdf7",R.drawable.card1));
         products.add(new Product("Тульский", "727",R.drawable.card1));
+        products.add(new Product("Капуста", "727",R.drawable.card1));
 
         GridView gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(new ProductAdapter(this, products));
