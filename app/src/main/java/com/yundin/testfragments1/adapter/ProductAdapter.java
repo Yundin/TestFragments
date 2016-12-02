@@ -1,4 +1,4 @@
-package com.yundin.testfragments1;
+package com.yundin.testfragments1.adapter;
 
 /**
  * Created by vladislav on 01.12.16.
@@ -8,9 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.yundin.testfragments1.R;
+import com.yundin.testfragments1.model.Product;
 
 import java.util.List;
 

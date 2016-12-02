@@ -1,4 +1,4 @@
-package com.yundin.testfragments1;
+package com.yundin.testfragments1.model;
 
 /**
  * Created by vladislav on 01.12.16.

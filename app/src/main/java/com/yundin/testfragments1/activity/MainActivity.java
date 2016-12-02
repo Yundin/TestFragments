@@ -1,9 +1,11 @@
-package com.yundin.testfragments1;
+package com.yundin.testfragments1.activity;
 
 import android.support.v7.app.AppCompatActivity;
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.GridView;
+import com.yundin.testfragments1.model.Product;
+import com.yundin.testfragments1.adapter.ProductAdapter;
+import com.yundin.testfragments1.R;
 
 import java.util.ArrayList;
 import java.util.List;
