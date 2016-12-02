@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        List<Product> products = new ArrayList<Product>();
+        List<Product> products = new ArrayList<>();
         products.add(new Product("Рыжик", "22", R.drawable.card1));
         products.add(new Product("Барсик", "66", R.drawable.card2));
         products.add(new Product("Мурзик", "89", R.drawable.card3));
